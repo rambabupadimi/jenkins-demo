@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven3'
-        jdk   'JDK25'
+        maven 'maven-path'
+        jdk   'java-jdk-path'
     }
 
     triggers {
